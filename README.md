@@ -11,9 +11,13 @@ Install by putting `gem 'elc_css_splitter'` into your Gemfile.
 ## Usage
 
 1) Install the ruby gem, or import using the following line:
-require "elc_css_splitter"
+    require "elc_css_splitter"
 
 2) At the end of your config.rb, add this:
-on_stylesheet_saved do |path|
-  CssSplitter.split(path) if path[/\.css$/]
-end
+
+    /*
+     *= Split up stylesheets
+     */
+    on_stylesheet_saved do |path|
+      CssSplitter.split(path) if path[/\.css$/]
+    end
