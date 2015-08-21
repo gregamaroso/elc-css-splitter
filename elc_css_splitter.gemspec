@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.summary     = "CSS Splitter"
   s.description = ""
   s.authors     = ["Greg Amaroso"]
-  s.email       = ''c
+  s.email       = ''
   s.files       = ["lib/elc_css_splitter.rb"]
   s.homepage    = 'http://rubygems.org/gems/elc_css_splitter'
   s.license     = 'MIT'
